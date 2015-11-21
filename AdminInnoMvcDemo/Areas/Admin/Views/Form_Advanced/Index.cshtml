@@ -1,0 +1,77 @@
+﻿@{
+    ViewBag.Title = "Advanced Plugins";
+}
+<link href="~/Areas/Admin/AdminInno/plagins/bootstrap-switch/css/bootstrap3/bootstrap-switch.min.css" rel="stylesheet" />
+
+<div class="row wrapper border-bottom white-bg page-heading">
+    <div class="col-lg-10">
+        <h2>Advanced Form Elements</h2>
+        <ol class="breadcrumb">
+            <li>
+                <a href="index.html">Home</a>
+            </li>
+            <li>
+                <a>Forms</a>
+            </li>
+            <li class="active">
+                <strong>Advanced Form Elements</strong>
+            </li>
+        </ol>
+    </div>
+    <div class="col-lg-2">
+
+    </div>
+</div>
+<div class="wrapper wrapper-content animated fadeInRight">
+    <div class="row">
+        <div class="col-lg-5">
+            <div class="ibox float-e-margins">
+                <div class="ibox-title">
+                    <h5>Bootstrap Switch <small>http://www.bootstrap-switch.org/</small></h5>
+                    <div class="ibox-tools">
+                        <a class="collapse-link">
+                            <i class="fa fa-chevron-up"></i>
+                        </a>
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                            <i class="fa fa-wrench"></i>
+                        </a>
+                        <ul class="dropdown-menu dropdown-user">
+                            <li>
+                                <a href="#">Config option 1</a>
+                            </li>
+                            <li>
+                                <a href="#">Config option 2</a>
+                            </li>
+                        </ul>
+                        <a class="close-link">
+                            <i class="fa fa-times"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="ibox-content">
+                    <h3>
+                        Bootstrap Switch
+                    </h3>
+                    <input type="checkbox" class="bs-switch" checked />
+                    <input type="checkbox" class="bs-switch_2" checked />
+                    <input type="checkbox" class="bs-switch_3" checked data-size="mini" />
+                    <br />
+                    <br />
+                    <input type="checkbox" class="bs-switch_3" data-on-text="ДА" data-off-text="НЕТ" />
+                    <input type="checkbox" class="bs-switch_3" data-on-text="ДА" data-off-text="НЕТ" data-on-color="danger" />
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section scripts{
+    <script src="~/Areas/Admin/AdminInno/plagins/bootstrap-switch/js/bootstrap-switch.min.js"></script>
+    <script>
+        $(".bs-switch").bootstrapSwitch();
+        $(".bs-switch_2").bootstrapSwitch({ size: "small" });
+        $(".bs-switch_3").bootstrapSwitch();
+        $(".bs-switch_4").bootstrapSwitch();
+    </script>
+}
+

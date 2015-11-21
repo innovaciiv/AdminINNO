@@ -1,0 +1,22 @@
+﻿@{
+    ViewBag.Title = "Dashboard";
+}
+<div style="min-height:1400px;">
+
+</div>
+
+@section scripts{
+    <script>
+        $(document).ready(function () {
+            setTimeout(function () {
+                toastr.options = {
+                    closeButton: true,
+                    progressBar: true,
+                    showMethod: 'slideDown',
+                    timeOut: 4000
+                };
+                toastr.success('Responsive Admin Theme', 'Welcome to ADMININNO');
+            }, 1300);
+        });
+    </script>
+}

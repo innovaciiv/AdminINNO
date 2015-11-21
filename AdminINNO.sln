@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AdminInnoHtmlTemplate", "AdminInnoHtmlTemplate", "{DDF462EA-A981-45A1-9EDE-D26F4462EA98}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "HtmlTemplate", "HtmlTemplate\", "{83E4686B-DFFD-4341-B04F-F3EB8BF9006B}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5.2"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_20259"
+		Debug.AspNetCompiler.PhysicalPath = "HtmlTemplate\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_20259\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_20259"
+		Release.AspNetCompiler.PhysicalPath = "HtmlTemplate\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_20259\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "20259"
+		SlnRelativePath = "HtmlTemplate\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdminInnoMvcDemo", "AdminInnoMvcDemo\AdminInnoMvcDemo.csproj", "{E0874A2F-B700-4FAC-8E99-D5BAD7DD005A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{83E4686B-DFFD-4341-B04F-F3EB8BF9006B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83E4686B-DFFD-4341-B04F-F3EB8BF9006B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83E4686B-DFFD-4341-B04F-F3EB8BF9006B}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{83E4686B-DFFD-4341-B04F-F3EB8BF9006B}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{E0874A2F-B700-4FAC-8E99-D5BAD7DD005A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0874A2F-B700-4FAC-8E99-D5BAD7DD005A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0874A2F-B700-4FAC-8E99-D5BAD7DD005A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0874A2F-B700-4FAC-8E99-D5BAD7DD005A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{83E4686B-DFFD-4341-B04F-F3EB8BF9006B} = {DDF462EA-A981-45A1-9EDE-D26F4462EA98}
+		{E0874A2F-B700-4FAC-8E99-D5BAD7DD005A} = {DDF462EA-A981-45A1-9EDE-D26F4462EA98}
+	EndGlobalSection
+EndGlobal
