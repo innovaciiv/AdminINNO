@@ -8,7 +8,7 @@ $(function() {
                 { year: '2010', value: 8 },
                 { year: '2011', value: 22 },
                 { year: '2012', value: 8 },
-                { year: '2014', value: 10 },
+                { year: '2015', value: 10 },
                 { year: '2015', value: 5 }
             ],
         xkey: 'year',

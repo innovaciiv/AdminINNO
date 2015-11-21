@@ -1,8 +1,8 @@
 @import url("//fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&amp;lang=en");
 /*
  *
- *   INSPINIA - Responsive Admin Theme
- *   Copyright 2014 Webapplayers.com
+ *   ADMININNO - Responsive Admin Theme
+ *   Copyright 2015 Webapplayers.com
  *
 */
 h1,
@@ -2300,7 +2300,7 @@ label.error {
   margin-bottom: 20px;
 }
 /* Notifie */
-.cg-notify-message.inspinia-notify {
+.cg-notify-message.ADMININNO-notify {
   background: #fff;
   padding: 0;
   box-shadow: 0 0 1px rgba(0, 0, 0, 0.1), 0 2px 4px rgba(0, 0, 0, 0.2);
@@ -2310,16 +2310,16 @@ label.error {
   margin-top: 30px;
   color: inherit;
 }
-.inspinia-notify.alert-warning {
+.ADMININNO-notify.alert-warning {
   border-left: 6px solid #f8ac59;
 }
-.inspinia-notify.alert-success {
+.ADMININNO-notify.alert-success {
   border-left: 6px solid #1c84c6;
 }
-.inspinia-notify.alert-danger {
+.ADMININNO-notify.alert-danger {
   border-left: 6px solid #ed5565;
 }
-.inspinia-notify.alert-info {
+.ADMININNO-notify.alert-info {
   border-left: 6px solid #1ab394;
 }
 /* Image cropper style */
@@ -4580,7 +4580,7 @@ body.rtls.top-navigation .footer.fixed {
 }
 /*
  *
- *   SKIN 1 - INSPINIA - Responsive Admin Theme
+ *   SKIN 1 - ADMININNO - Responsive Admin Theme
  *   NAME - Blue light
  *
 */
@@ -4683,8 +4683,8 @@ body.skin-1 {
 }
 /*
  *
- *   SKIN 2 - INSPINIA - Responsive Admin Theme
- *   NAME - Inspinia Ultra
+ *   SKIN 2 - ADMININNO - Responsive Admin Theme
+ *   NAME - ADMININNO Ultra
  *
 */
 body.skin-2 {
@@ -4830,7 +4830,7 @@ body.skin-2 #wrapper {
 }
 /*
  *
- *   SKIN 3 - INSPINIA - Responsive Admin Theme
+ *   SKIN 3 - ADMININNO - Responsive Admin Theme
  *   NAME - Yellow/purple
  *
 */

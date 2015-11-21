@@ -1,6 +1,6 @@
 /* Javascript plotting library for jQuery, version 0.8.3.
 
-Copyright (c) 2007-2014 IOLA and Ole Laursen.
+Copyright (c) 2007-2015 IOLA and Ole Laursen.
 Licensed under the MIT license.
 
 */
