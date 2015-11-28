@@ -171,6 +171,12 @@
     <Content Include="Areas\Admin\AdminInno\plagins\bootstrap-switch\css\bootstrap3\bootstrap-switch.min.css" />
     <Content Include="Areas\Admin\AdminInno\plagins\bootstrap-switch\js\bootstrap-switch.js" />
     <Content Include="Areas\Admin\AdminInno\plagins\bootstrap-switch\js\bootstrap-switch.min.js" />
+    <Content Include="Areas\Admin\AdminInno\plagins\jquery.select2\select2-skins.min.css" />
+    <Content Include="Areas\Admin\AdminInno\plagins\jquery.select2\select2-spinner.gif" />
+    <Content Include="Areas\Admin\AdminInno\plagins\jquery.select2\select2.css" />
+    <Content Include="Areas\Admin\AdminInno\plagins\jquery.select2\select2.min.js" />
+    <Content Include="Areas\Admin\AdminInno\plagins\jquery.select2\select2.png" />
+    <Content Include="Areas\Admin\AdminInno\plagins\jquery.select2\select2x2.png" />
     <Content Include="Areas\Admin\AdminInno\plagins\metisMenu\jquery.metisMenu.js" />
     <Content Include="Areas\Admin\AdminInno\plagins\jquery-ui\i18n\jquery-ui-i18n.min.js" />
     <Content Include="Areas\Admin\AdminInno\plagins\jquery-ui\i18n\jquery.ui.datepicker-af.min.js" />

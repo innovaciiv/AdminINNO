@@ -2,6 +2,8 @@
     ViewBag.Title = "Advanced Plugins";
 }
 <link href="~/Areas/Admin/AdminInno/plagins/bootstrap-switch/css/bootstrap3/bootstrap-switch.min.css" rel="stylesheet" />
+<link href="~/Areas/Admin/AdminInno/plagins/jquery.select2/select2.css" rel="stylesheet" />
+<link href="~/Areas/Admin/AdminInno/plagins/jquery.select2/select2-skins.min.css" rel="stylesheet" />
 
 <div class="row wrapper border-bottom white-bg page-heading">
     <div class="col-lg-10">
@@ -62,6 +64,58 @@
                 </div>
             </div>
         </div>
+        <div class="col-lg-7">
+            <div class="ibox float-e-margins">
+                <div class="ibox-title">
+                    <h5>
+                        Select2 <small>http://select2.github.io/</small>
+                    </h5>
+                    <div class="ibox-tools">
+                        <a class="collapse-link">
+                            <i class="fa fa-chevron-up"></i>
+                        </a>
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                            <i class="fa fa-wrench"></i>
+                        </a>
+                        <ul class="dropdown-menu dropdown-user">
+                            <li>
+                                <a href="#">Config option 1</a>
+                            </li>
+                            <li>
+                                <a href="#">Config option 2</a>
+                            </li>
+                        </ul>
+                        <a class="close-link">
+                            <i class="fa fa-times"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="ibox-content">
+                    <h3>
+                        Select2 Basic
+                    </h3>
+                    <div class="form-group">
+                        <label class="font-noraml">search</label>
+                        <div class="input-group">
+                            <select class="js-example-disabled-results">
+                                <option value="one">First</option>
+                                <option value="two">Third</option>
+                            </select>
+                        </div>
+                    </div>
+                    <br />
+                    <h3>
+                        Select2 Ajax + Skins <small>http://ui.themepixels.com/select2-skins/</small>
+                    </h3>
+                    <div class="form-group">
+                        <label class="font-noraml">search</label>
+                        <div class="input-group">
+                            <input class="js-example-disabled-results2" type="hidden" data-placeholder="search.." />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
 
@@ -73,5 +127,38 @@
         $(".bs-switch_3").bootstrapSwitch();
         $(".bs-switch_4").bootstrapSwitch();
     </script>
+<script src="~/Areas/Admin/AdminInno/plagins/jquery.select2/select2.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.js-example-disabled-results').select2();
+            $('.js-example-disabled-results2').select2({
+                minimumInputLength: 2,
+                containerCssClass: 'tpx-select2-container',
+                dropdownCssClass: 'tpx-select2-drop',
+                ajax: {
+                    url: "/admin/Form_Advanced/ElementOutocomplite/",
+                    dataType: 'json',
+                    type: 'POST',
+                    data: function (term, page) {
+                        return {
+                            id: term
+                        };
+                    },
+                    results: function (data) {
+                        var results = [];
+                        $.each(data, function (index, item) {
+                            results.push({
+                                id: item.id,
+                                text: item.name
+                            });
+                        });
+                        return {
+                            results: results
+                        };
+                    }
+                }
+            });
+        });
+</script>
 }
 
